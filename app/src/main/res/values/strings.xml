@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lesson1</string>
+    <string name="Text_send">Напиши мне</string>
+    <string name="button1">Я кнопка</string>
+    <string name="button2">Я кнопка второго экрана</string>
+    <string name="Switch">Switch</string>
+    <string name="textPersonName">Введите Ваше имя</string>
+    <string name="textPassword">Введите пароль</string>
+    <string name="postal">nick@postal.com</string>
+    <string name="phone">+375 __ ___ __ __</string>
+</resources>

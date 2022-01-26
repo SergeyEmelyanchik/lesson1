@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/button2"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textPersonName"
+        android:inputType="textPersonName"
+        android:textColor="#00FF00"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/edit_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textPassword"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/postal"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edit_text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+</LinearLayout>
