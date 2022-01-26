@@ -22,7 +22,9 @@
         android:hint="@string/textPersonName"
         android:inputType="textPersonName"
         android:textColor="#00FF00"
+        android:textColorHint="#018786"
         android:textSize="18sp"
+        android:textStyle="bold"
         android:typeface="monospace" />
 
     <EditText
@@ -31,7 +33,11 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/textPassword"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="#21D5CF"
+        android:textColorHint="#751EB3"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/edit_text4"
@@ -40,6 +46,9 @@
         android:ems="10"
         android:hint="@string/postal"
         android:inputType="textEmailAddress"
+        android:textColor="#FFEB3B"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
         android:textStyle="italic" />
 
     <EditText
@@ -48,5 +57,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/phone"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:textColor="#EAB3AF"
+        android:textColorHint="#30064E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
